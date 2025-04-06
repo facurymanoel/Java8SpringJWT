@@ -30,7 +30,7 @@ Um CRUD de Usuário com autenticação via Token JWT e endpoints RESTful em Spri
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/facurymanoel/Java8SpringJWT
+   git clone https://github.com/facurymanoel/Java8SpringJWT.git
    ```
 
 2. Acesse o diretório do projeto:
