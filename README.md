@@ -1,69 +1,91 @@
-Java8SpringJWT
+ 
 
-Um CRUD de Usuário com autentição via Token JWT com endpoints RESTful em Spring Boot.
+# Java8SpringJWT
 
-Tecnologias Usadas
+Um CRUD de Usuário com autenticação via Token JWT e endpoints RESTful em Spring Boot.
 
-Java 8
+## Tecnologias Usadas
 
-Spring Boot (Framework para construção de aplicações Java baseadas em microserviços)
+- **Java 8**  
+- **Spring Boot** (Framework para construção de aplicações Java baseadas em microserviços)
+- **JWT (JSON Web Token)** (Autenticação e autorização de usuários)
+- **Mockito e JUnit** (Testes unitários com mocks para Service e Controller)
+- **Swagger** (Documentação interativa da API)
 
-JWT (JSON Web Token) (Autenticação e autorização de usuários)
+## Funcionalidades
 
-Mockito e JUnit (Testes unitários com mocks para Service e Controller)
+- Implementação de autenticação via JWT, permitindo autenticar usuários de forma segura.
+- Endpoints RESTful que permitem o acesso e manipulação de dados.
+- Testes automatizados utilizando Mockito e JUnit para garantir que os serviços e controladores funcionem corretamente.
 
-Swagger (Documentação interativa da API)
+## Como Rodar o Projeto
 
-Funcionalidades
+### Pré-requisitos
 
-Implementação de autenticação via JWT, permitindo autenticar usuários de forma segura.
+- **Java 8 ou superior**
+- **Maven** (para gerenciamento de dependências e build do projeto)
 
-Endpoints RESTful que permitem o acesso e manipulação de dados.
+### Passos
 
-Testes automatizados utilizando Mockito e JUnit para garantir que os serviços e controladores 
+1. Clone o repositório:
 
-funcionem corretamente.
+   ```bash
+   git clone https://github.com/facurymanoel/Java8SpringJWT
+   ```
 
-Como Rodar o Projeto
+2. Acesse o diretório do projeto:
 
-Java 8 ou superior
+   ```bash
+   cd Java8SpringJWT
+   ```
 
-Maven - para gerenciamento de dependências e build do projeto
+3. Compile o projeto (Maven):
 
-Passos
+   ```bash
+   mvn clean install
+   ```
 
-Clone o repositório:
+4. Execute a aplicação:
 
-git clone https://github.com/facurymanoel/Java8SpringJWT
+   ```bash
+   mvn spring-boot:run
+   ```
 
-cd Java8SpringJWT
+## Testes
 
-Compile o projeto (Maven):
+O projeto utiliza **Mockito** para testes unitários de Service e Controller. Para rodar os testes, execute:
 
-mvn clean install
+```bash
+mvn test
+```
 
-Execute a aplicação:
+## Como Contribuir
 
-mvn spring-boot:run
+1. Fork o repositório.
+2. Crie uma branch para sua feature:
 
-Testes
+   ```bash
+   git checkout -b minha-feature
+   ```
 
-O projeto utiliza Mockito para testes unitários de Service e Controller. Para rodar os testes, 
-execute mvn test
+3. Faça suas alterações.
+4. Comite suas mudanças:
 
-Como Contribuir
+   ```bash
+   git commit -am 'Adicionando nova funcionalidade'
+   ```
 
-Fork o repositório.
+5. Faça o push para a branch:
 
-Crie uma branch para sua feature (git checkout -b minha-feature).
+   ```bash
+   git push origin minha-feature
+   ```
 
-Faça suas alterações.
+6. Abra um Pull Request.
 
-Comite suas mudanças (git commit -am 'Adicionando nova funcionalidade').
+---
 
-Push para a branch (git push origin minha-feature).
-
-Abra um Pull Request.
+ 
 
 
 
